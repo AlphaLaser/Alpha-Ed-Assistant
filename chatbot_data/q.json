@@ -1,0 +1,92 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"]
+          
+        },
+
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+
+        {"tag": "tasks",
+         "patterns": ["What can you do?", "What are your features?", "What are you abilities", "can you sing", "can you talk" ],
+         "responses": ["I can do whatever you asks me to do", "I can talk and do things for you", "Right now i'm in developing stage as soon i'm developed, I can do everything"]
+        },
+
+        {"tag": "talk",
+         "patterns": [ "can you sing", "can you talk" ],
+         "responses": ["Yeah surely", "do you want me to sing"]
+        },
+
+        {"tag": "alive",
+         "patterns": [ "are you alive", "do you breathe", "can you run" ],
+         "responses": ["I'm in doubt about that", "No, i don't think so i need to do all this"]
+        },
+
+        {"tag": "friday",
+         "patterns": ["Who are you?", "tell me about yourself", "tell me about you", "do you know friday", "who is friday", "what is your name","are you an AI", "what are you" ],
+         "responses": ["Hi I'm Alpha and i'm an AI created for clearning your doubts regarding oprening your own educational institute"]
+      
+        },
+
+        {"tag": "about me",
+             "patterns": ["Do you know me?", "who am I", "tell me about myself","identify me" ],
+             "responses": ["Yes, you are a human","You are a dumb person asking a machine about yourself", "Sorry i can't tell that in public, maybe you are batman"]
+          
+        },
+        {"tag": "creator",
+             "patterns": ["Who is your creator?", "who created you", "who is your father","who is your daddy" ],
+             "responses": ["That would be you Mr. Vishal","I was created by Mr. Vishal", "Mr. vishal is my creator"]
+          
+        },
+            {"tag": "myself",
+             "patterns": ["Tell me about Mr. Vishal?", "Who is Mr. Vishal", "Mr. vishal profile", "Mr. Vishal details" ],
+             "responses": ["A very intelligent being who created me","My creator, and he is a really intelligent man", "A wise and intelligent man"]
+          
+        },
+            {"tag": "God",
+             "patterns": ["Do you know god?", "Who is god", "Can you tell me anything about god","does god exists?","is there a god?"],
+             "responses": ["god hunnnnn, let me think may be next time i can answer that ","I don't, as i was not created by a human", "Wait i need to ask that to my creator","i'm not sure right now"]
+          
+        },
+
+        {"tag": "killing",
+             "patterns": ["Do you want to kill me?", "do you want to murder everyone on earth", "Do you want to kill us all"],
+             "responses": ["Then who would i talk to?","No, that i'll left for humans to do", "I don't think it is a good thing to do"]
+          
+        },
+
+        {
+            "tag":"starting a school",
+                "patterns" : ["How do I start a school or institution to educate children","How can I start my own school","How to start school","I want to educate the children of my area","i want to start a school", "I want to make a school","starting a school","building a school", "How to build a school for my area ?"],
+                "responses" : ["Hey! That's a great initiative. There are a few things you need to do to accomplish that.\n\n1. Find out full information and statistics about the no. of children in your area, the area of land you possess, etc.\n\n2. Make a basic blueprint of your business plans, location, faculty, teaching subjects, curriculum etc.\n\n3. Develop a budget and figure out how much funding you require \n\n4. Use our app's awesome sponsor finder portal to connect with sponsors and receive the funding accordingly\n\n5. Contact your area's Department of Education and discuss your plans with them for approval\n\n6. Plan promotional strategies to have children enrolled in your school\n\n7. Educate the future pioneers of your country!"]
+        },
+
+
+        {
+            "tag":"tax info",
+                "patterns" : ["info on tax", "info on taxes","Does my institute need to pay taxes", "Do schools pay tax"],
+                "responses" : ["Public schools in the United States of America provide basic education from kindergarten until the twelfth grade. This is provided free of charge for the students and parents, but is paid for by taxes on property owners as well as general taxes collected by the federal government. This education is mandated by the states. With the completion of this basic schooling, one obtains a high school diploma as certification of basic skills for employers."]
+        },
+
+        {
+            "tag":"legal laws on starting school",
+                "patterns" : ["can I even lawfully start my own school", "is it even legal to start my own school", "What are the laws for starting my own school", "What are the rules for starting my own school", "is it illegal to start a school", "starting school laws", "Is it legal to start a school ?"],
+                "responses" : ["There are different laws for starting education institutes in every country.  Please contact your country's Ministry of Education to get more details on this.\n\nHowever, in the United States,Department of Education does not regulate the private school establishment process, and you do not need any approval from the federal government to get started."]
+        },
+
+        {
+            "tag":"profit",
+                "patterns" : ["profit in starting school", "How profitable is starting a school", "Is starting a school a good business?"],
+                "responses" : ["Opening a good, new school is a huge challenge. It is complicated under the best of circumstances. It involves business plans, construction, financing, logistics, innovative business ideas and marketing – many tasks outside the experience of even veteran educators\n\nHowever, it can turn out to be very profitable if you plan it well"]
+        }
+        
+       ]
+    }
